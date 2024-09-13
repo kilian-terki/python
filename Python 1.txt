@@ -1,3 +1,4 @@
+#Exercice
 def est_entier(x):
     if x==(int) or x>0:
         return True
@@ -5,6 +6,7 @@ def est_entier(x):
         return False
 print (est_entier(1.5))
 
+#Exercice
 def est_isocele(a,b,c):
     if(a==b or b==c or c==a):
         return True
@@ -12,6 +14,7 @@ def est_isocele(a,b,c):
         return False
 print (est_isocele(5,5,6))
 
+#Exercice
 def lpp(a,b):
     if a < b:
         return a
@@ -19,11 +22,13 @@ def lpp(a,b):
         return b
 print (lpp(2,5))
 
+#Exercice
 def valeur_absolue (x):
     if x<0:
         return x*(-1)
 print (valeur_absolue(-5))
 
+#Exercice
 def est_pair (n):
     if n%2:
         return False
