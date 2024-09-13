@@ -23,3 +23,10 @@ def valeur_absolue (x):
     if x<0:
         return x*(-1)
 print (valeur_absolue(-5))
+
+def est_pair (n):
+    if n%2:
+        return False
+    else:
+        return True
+print (est_pair(0))
