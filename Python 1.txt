@@ -45,3 +45,11 @@ def signe (x):
     elif x<0:
         return "Negative"
 print (signe(5))
+
+#EXERCICE 
+def suite(n):
+    u = 1
+    for k in range(n):
+        u = 2*u+k
+    return u
+print (suite(2))
