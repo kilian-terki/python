@@ -53,3 +53,15 @@ def suite(n):
         u = 2*u+k
     return u
 print (suite(2))
+
+#EXERCICE
+
+def seuil(eps):
+    u = 1
+    n = 0
+    while (u > eps):
+        u = u / (n+1)
+        u = n+1
+    return n
+print(seuil(4))
+
