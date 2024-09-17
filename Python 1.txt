@@ -65,3 +65,11 @@ def seuil(eps):
     return n
 print(seuil(4))
 
+#EXERCICE 
+
+def sigma (n, p):
+    S=0
+    for k in range(1, n+1):
+        S=S+k**p
+    return S
+print(sigma(1,2))
