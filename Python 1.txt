@@ -83,3 +83,10 @@ def mult_7 (n):
             S=S+1
     return S
 print (mult_7(56))
+
+#exercice 5 
+
+def caractere(c,d,n,m):
+    if n>0 and m>0:
+        return c*n+d*m
+print (caractere('c','d',8,9))
