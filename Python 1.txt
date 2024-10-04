@@ -90,3 +90,9 @@ def caractere(c,d,n,m):
     if n>0 and m>0:
         return c*n+d*m
 print (caractere('c','d',8,9))
+
+#exercice 
+
+def palindrome (ch): 
+    return ch == ch [::-1]
+print (palindrome('et la marine va venir a malte'))
