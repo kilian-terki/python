@@ -1,0 +1,18 @@
+def cesar(texte, cle):
+    resultat = ""
+    for lettre in texte:
+        if lettre.isalpha():  # Si c'est une lettre
+            base = ord('a') if lettre.islower() else ord('A')
+            resultat += chr((ord(lettre) - base + cle) % 26 + base)
+        else:
+            resultat += lettre  # Conserve les autres caractères
+    return resultat
+
+texte = input("Entrez le texte : ")
+cle = int(input("Entrez la clé (un nombre entier) : "))
+
+texte_chiffre = cesar(texte, cle)
+print("Texte chiffré :", texte_chiffre)
+
+texte_dechiffre = cesar(texte_chiffre, -cle)
+print("Texte déchiffré :", texte_dechiffre)
